@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: sans-serif;
     background-color: #f9fafb;
@@ -9,14 +13,19 @@ body {
     font-size: 1rem;
 }
 
+li {
+    margin-bottom: 0.5rem;
+}
+
 a {
     color: #2e8b57;
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus-visible {
     color: #3fae74;
-      text-decoration: underline;
+    text-decoration: underline;
 }
 
 footer {
@@ -28,7 +37,7 @@ footer {
 
 .credly-badge {
     display: inline-block;
-    height: 16rem;
+    height: 256px;
     border-radius: 0.25rem;
     background-color: #f9fafb;
   }
