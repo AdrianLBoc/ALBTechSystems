@@ -23,11 +23,9 @@ footer {
 }
 
 .credly-badge {
-    border: 2px #2e8b57 solid;
     display: inline-block;
-    padding: 0.5rem 0.5rem 0rem 0.5rem;
-    border-radius: 0.5rem;
-    background-color: #f1f1f1;
+    height: 16rem;
+    border-radius: 0.25rem;
   }
 
 .logo {
@@ -44,7 +42,6 @@ footer {
 
     .credly-badge {
         background-color: #f9fafb;
-        border-color:#3fae74;
       }
 
     h1, h2 {
