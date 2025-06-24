@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: sans-serif;
     background-color: #f9fafb;
@@ -26,6 +30,7 @@ footer {
     display: inline-block;
     height: 16rem;
     border-radius: 0.25rem;
+    background-color: #f9fafb;
   }
 
 .logo {
@@ -39,10 +44,6 @@ footer {
         background-color: #232323;
         color: #f0f0f0;
     }
-
-    .credly-badge {
-        background-color: #f9fafb;
-      }
 
     h1, h2 {
         color: #ffffff;
